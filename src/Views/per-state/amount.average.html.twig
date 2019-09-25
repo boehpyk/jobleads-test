@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    <h1>The average amount of taxes collected per state</h1>
+
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>State name</th>
+                <th>Average amount of taxes</th>
+            </tr>
+        </thead>
+    {% for item in data %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.amount | number_format(1) }}$</td>
+        </tr>
+    {% endfor %}
+    </table>
+
+{% endblock %}

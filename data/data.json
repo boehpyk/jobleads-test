@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Florida",
+        "counties": [
+            {
+                "name": "Kingfurt",
+                "tax_rate": 0.2,
+                "tax_amount": 1733114
+            },
+            {
+                "name": "Zenahaven",
+                "tax_rate": 0.15,
+                "tax_amount": 1773800
+            },
+            {
+                "name": "South Haley",
+                "tax_rate": 0.24,
+                "tax_amount": 1221824
+            }
+        ]
+    },
+    {
+        "name": "Louisiana",
+        "counties": [
+            {
+                "name": "South Vellaton",
+                "tax_rate": 0.22,
+                "tax_amount": 787329
+            },
+            {
+                "name": "Port Cornellbury",
+                "tax_rate": 0.16,
+                "tax_amount": 1151062
+            },
+            {
+                "name": "East Janis",
+                "tax_rate": 0.43,
+                "tax_amount": 1250365
+            }
+        ]
+    },
+    {
+        "name": "Alaska",
+        "counties": [
+            {
+                "name": "Cliftonbury",
+                "tax_rate": 0.47,
+                "tax_amount": 1512494
+            },
+            {
+                "name": "South Dorthy",
+                "tax_rate": 0.35,
+                "tax_amount": 982663
+            },
+            {
+                "name": "East Cordieview",
+                "tax_rate": 0.5,
+                "tax_amount": 393667
+            }
+        ]
+    },
+    {
+        "name": "Nevada",
+        "counties": [
+            {
+                "name": "Reynoldschester",
+                "tax_rate": 0.11,
+                "tax_amount": 797068
+            },
+            {
+                "name": "Lake Esta",
+                "tax_rate": 0.46,
+                "tax_amount": 1459117
+            },
+            {
+                "name": "North Ivaberg",
+                "tax_rate": 0.5,
+                "tax_amount": 859354
+            }
+        ]
+    },
+    {
+        "name": "Alabama",
+        "counties": [
+            {
+                "name": "New Jamarcusfort",
+                "tax_rate": 0.49,
+                "tax_amount": 1056044
+            },
+            {
+                "name": "Dasiaburgh",
+                "tax_rate": 0.36,
+                "tax_amount": 673308
+            },
+            {
+                "name": "West Oscarmouth",
+                "tax_rate": 0.23,
+                "tax_amount": 1781550
+            }
+        ]
+    }
+]

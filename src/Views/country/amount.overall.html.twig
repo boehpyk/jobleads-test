@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    <h1>The collected overall taxes of the country</h1>
+
+    <p>The collected overall taxes of the country <span style="font-size: 120%; font-weight: bold">{{ (data.amount) | number_format(1) }}$</span></p>
+
+
+{% endblock %}

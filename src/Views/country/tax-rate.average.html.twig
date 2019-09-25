@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+    <h1>The average tax rate of the country</h1>
+
+    <p>The average tax rate of the country is <span style="font-size: 120%; font-weight: bold">{{ (data.tax_rate*100) | number_format(2) }}%</span></p>
+
+
+{% endblock %}
